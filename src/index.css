@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+@layer components {
+    .board {
+      
+      @apply container grid w-auto h-auto grid-cols-8 bg-blue-600;
+    }
+    .blackSquare {
+        @apply h-20 w-20 bg-black border-2 border-gray-500;
+    }
+    .whiteSquare {
+        @apply h-20 w-20 bg-white border-2 border-gray-500;
+    }
+  }
+
