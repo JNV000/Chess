@@ -29,7 +29,7 @@ class ChessPiece {
     // use switch statement to determine piece type
     switch (this.type) {
       case 1: {
-        // return call to function for pieces moves
+        // return call to function for piece's moves
         alert("Pawn, Not Implemented");
         break;
       }

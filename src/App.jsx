@@ -1,8 +1,10 @@
 import Square from "./components/Square";
 import "./index.css";
+import "./utils/ChessPieces.js";
 
 // board will be refectored in the reducer/hooks
 const board = Array(8).fill(Array(8).fill(null));
+// update board array to hold pices
 
 // grid-template-columns: repeat(8, 1fr);
 
