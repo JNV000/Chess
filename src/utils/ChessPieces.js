@@ -1,3 +1,5 @@
+// TODO: define enum for pieces
+
 // chess piece class
 class ChessPiece {
   /* turns taken will be used for tracking
