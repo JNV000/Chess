@@ -2,18 +2,16 @@ import PropTypes from "prop-types";
 
 export default function Square({ marker, id, handleClick, squareClass }) {
   return (
-    <button id={id} type="button"
-        className={squareClass} onClick={handleClick}>
+    <button id={id} type="button" className={squareClass} onClick={handleClick}>
       {marker}
     </button>
   );
 }
 
-
 Square.propTypes = {
   marker: PropTypes.string,
   squareClass: PropTypes.string,
-  id: PropTypes.number.isRequired,
+  id: PropTypes.string.isRequired,
   handleClick: PropTypes.func,
 };
 

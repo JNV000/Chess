@@ -1,7 +1,7 @@
 // TODO: define enum for pieces
 
 // chess piece class
-class ChessPiece {
+export default class ChessPiece {
   /* turns taken will be used for tracking
         things such as if castling, a pawn's first movment,
         and en passants.
